@@ -6,9 +6,9 @@ Alur Kerja (Workflow) dari tugas akhir ini sebagai berikut:
    
 2. **Melakukan Commit Bertahap (Feature Commits)**
    Kemudian proyek portfolio dilanjutkan di branch main. Setiap penambahan section disimpan sebagai commit terpisah yang mana:
-   a. Pertama, penambahan "section tentang saya".
-   b. Kedua, penambahan "section proyek".
-   c. Ketiga, penambahan "section keahlian dan kontak".
+   * Pertama, penambahan "section tentang saya".
+   * Kedua, penambahan "section proyek".
+   * Ketiga, penambahan "section keahlian dan kontak".
 
 3. **Pembuatan Branch untuk Melakukan Perubahan**
    Untuk melakukan modifikasi tanpa mengganggu kode utama yang stabil, branch baru dibuat dengan nama "perubahan". Alur kerja kemudian dipindahkan ke branch perubahan ini.
