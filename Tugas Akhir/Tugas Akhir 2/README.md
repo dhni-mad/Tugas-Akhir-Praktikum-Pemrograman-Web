@@ -20,7 +20,7 @@ Alur Kerja (Workflow) dari tugas akhir ini sebagai berikut:
    Setelah saya selesai, maka pindah ke branch main. Kemudian melakukan perintah merge untuk menggabungkan semua riwayat commit dari branch perubahan ke main.
 
 6. **Push ke GitHub** :
-   Terakhir, repository lokal yang sudah terbarui di branch main (termasuk semua commit bertahap dan hasil merge) dikirim (push) ke GitHub, sehingga antara kode lokal dan di gitbuh sudah tersinkron atau sama. 
+   Terakhir, repository lokal yang sudah terbaru di branch main (termasuk semua commit bertahap dan hasil merge) dikirim (push) ke GitHub, sehingga antara kode lokal dan di github sudah tersinkron atau sama. 
 
 Berikut Hasil ScreenShot dari perintah git log --graph --oneline:
 
