@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Akhir - Learnify (Versi Sederhana)</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+
+    <nav class="bg-white shadow-sm fixed w-full z-20 border-b border-gray-200">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="#" class="text-3xl font-extrabold text-blue-600">Learnify</a>
+                </div>
+                
+                <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+                    <a href="#hero" class="text-gray-600 hover:text-blue-600 inline-flex items-center px-1 pt-1 text-sm font-medium">Home</a>
+                    <a href="#features" class="text-gray-600 hover:text-blue-600 inline-flex items-center px-1 pt-1 text-sm font-medium">Fitur</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 inline-flex items-center px-1 pt-1 text-sm font-medium">Tentang</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 inline-flex items-center px-1 pt-1 text-sm font-medium">Kontak</a>
+                </div>
+
+                <div class="hidden sm:ml-6 sm:flex sm:items-center">
+                    <a href="#contact" class="bg-orange-500 text-white py-2 px-5 rounded-md text-sm font-medium hover:bg-orange-600 transition duration-300">
+                        hubungi Kami
+                    </a>
+                </div>
+
+                <div class="sm:hidden flex items-center">
+                    <label for="menu-toggle" class="cursor-pointer">
+                        <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <input type="checkbox" id="menu-toggle" class="hidden peer" />
+        <div class="hidden peer-checked:block sm:hidden bg-white shadow-lg border-t border-gray-200">
+            <div class="pt-2 pb-3 space-y-1">
+                <a href="#hero" class="block pl-3 pr-4 py-2 text-base font-medium text-gray-600 hover:bg-gray-50 hover:text-blue-600">Home</a>
+                <a href="#features" class="block pl-3 pr-4 py-2 text-base font-medium text-gray-600 hover:bg-gray-50 hover:text-blue-600">Fitur</a>
+                <a href="#about" class="block pl-3 pr-4 py-2 text-base font-medium text-gray-600 hover:bg-gray-50 hover:text-blue-600">Tentang</a>
+                <a href="#contact" class="block pl-3 pr-4 py-2 text-base font-medium text-gray-600 hover:bg-gray-50 hover:text-blue-600">Kontak</a>
+            </div>
+            <div class="pt-4 pb-3 border-t border-gray-200">
+                <div class="px-2">
+                    <a href="#contact" class="block w-full text-center bg-orange-500 text-white py-2 px-5 rounded-md text-base font-medium hover:bg-orange-600 transition duration-300">
+                        Hubungi Kami
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="bg-white pt-32 pb-16">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight">
+                Platform EduTech: Learn. Grow. Succeed.
+            </h1>
+            <p class="mt-4 text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
+                Kami menyediakan LMS modern yang mudah digunakan oleh siswa, guru, dan administrator untuk sekolah dan universitas.
+            </p>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="bg-blue-600">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-6">
+                <h2 class="text-3xl font-bold text-white">Fitur Unggulan Kami</h2>
+            </div>
+        </div>
+
+        <div class="bg-orange-50 py-16">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-shadow duration-300 hover:shadow-2xl flex flex-col">
+                        <img class="w-full h-48 object-cover" src="online platform.png" alt="Online Learning Platform">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Online Learning Platform</h3>
+                            <p class="text-gray-600 mb-4">Pembelajaran interaktif dari mana saja.</p>
+                            
+                            <a href="#" class="mt-auto bg-orange-500 text-white text-center py-2 px-5 rounded-md text-sm font-medium hover:bg-orange-600 transition duration-300">
+                                Pelajari Lebih Lanjut
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-shadow duration-300 hover:shadow-2xl flex flex-col">
+                        <img class="w-full h-48 object-cover" src="teacher dashboard.webp" alt="Teacher Dashboard">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Teacher Dashboard</h3>
+                            <p class="text-gray-600 mb-4">Manajemen tugas dan nilai yang efisien.</p>
+                            
+                            <a href="#" class="mt-auto bg-orange-500 text-white text-center py-2 px-5 rounded-md text-sm font-medium hover:bg-orange-600 transition duration-300">
+                                Pelajari Lebih Lanjut
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-shadow duration-300 hover:shadow-2xl flex flex-col">
+                        <img class="w-full h-48 object-cover" src="analisi report.jpg" alt="Analytics Report">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Analytics Report</h3>
+                            <p class="text-gray-600 mb-4">Pantau progres belajar siswa secara visual.</p>
+                            
+                            <a href="#" class="mt-auto bg-orange-500 text-white text-center py-2 px-5 rounded-md text-sm font-medium hover:bg-orange-600 transition duration-300">
+                                Pelajari Lebih Lanjut
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="bg-white py-20">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-extrabold text-gray-900 mb-4">Tentang Learnify</h2>
+                    <p class="text-lg text-gray-700 leading-relaxed mb-4">
+                        Learnify adalah perusahaan EduTech (teknologi pendidikan) dengan tagline "Learn. Grow. Succeed.". Misi kami adalah menghadirkan platform pembelajaran digital yang modern dan mudah digunakan untuk sekolah dan universitas.
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        Kami memberdayakan siswa, guru, dan administrator untuk mencapai hasil akademik terbaik melalui teknologi yang intuitif dan data yang insightful.
+                    </p>
+                </div>
+                <div>
+                    <img class="rounded-lg shadow-xl" src="about.webp" alt="Tim Learnify">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-orange-50 py-20">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-lg">
+            <h2 class="text-3xl font-extrabold text-center text-gray-900 mb-8">Hubungi Kami</h2>
+            <form action="#" method="POST" class="bg-white p-8 rounded-lg shadow-lg space-y-6">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700">Nama Lengkap</label>
+                    <input type="text" id="name" name="name" required
+                           class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                    <input type="email" id="email" name="email" required
+                           class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500">
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-medium text-gray-700">Pesan</label>
+                    <textarea id="message" name="message" rows="4" required
+                              class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500"></textarea>
+                </div>
+                <div>
+                    <button type="submit"
+                            class="w-full py-3 px-6 rounded-md shadow-sm font-medium text-white bg-blue-600 hover:bg-blue-700 transition duration-300">
+                        Kirim Pesan
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-blue-600 text-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center">
+            
+            <div class="flex justify-center space-x-6 mb-6">
+                <a href="facebook.com" class="text-blue-200 hover:text-white font-medium transition duration-300">
+                    Facebook
+                </a>
+                <a href="twitter.com" class="text-blue-200 hover:text-white font-medium transition duration-300">
+                    Twitter
+                </a>
+                <a href="linkedin.com" class="text-blue-200 hover:text-white font-medium transition duration-300">
+                    LinkedIn
+                </a>
+            </div>
+
+            <p class="text-blue-200 text-sm">
+                &copy; 2025 Learnify. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+</body>
+</html>
